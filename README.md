@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Urna Eletrônica
 
-<img src="./urna.JPG" alt="IMG-">
+<img src="./img/urna.jpg" alt="IMG-">
 
 
 > Projeto finalizado 
