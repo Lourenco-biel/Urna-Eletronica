@@ -46,6 +46,4 @@ Este projeto trata-se de uma simulação de votação na urna eletrônica! Vote 
 
 
 [⬆ Voltar ao topo](#Urna-Eletrônica)<br>
-=======
-# Urna-Eletronica
->>>>>>> 9dc392a3b7223cb96efe9ff7e93720657f218e7b
+
