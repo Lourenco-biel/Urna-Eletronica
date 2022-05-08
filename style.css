@@ -1,47 +1,60 @@
-@keyframes pisca {
-    0% {opacity: 0.2;}
-    50% {opacity: 1;}
-    100%{opacity: 0.2;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+@keyframes pisca {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
 }
 
-.urna{
+.urna {
     background-color: #dbd5c9;
     padding: 30px;
     display: flex;
 }
 
-.tela{
+.tela {
     width: 500px;
     height: 320px;
-    background: linear-gradient(to right, #E8E8E8,#C1C1C1 );
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
     border: 2px solid #555;
     display: flex;
     flex-direction: column;
 }
 
-
-.teclado{
+.teclado {
     background-color: #403A3A;
     margin-left: 30px;
 }
 
-.teclado--linha{
+.teclado--linha {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.teclado--botão{
+.teclado--botão {
     width: 70px;
-    height: 40px; 
+    height: 40px;
     background-color: #000;
     color: #fff;
     font-size: 25px;
@@ -53,19 +66,19 @@ body{
     box-shadow: 3px 3px 0 #555;
 }
 
-.botão--branco{
+.botão--branco {
     background-color: #FFF;
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.botão--corrige{
+.botão--corrige {
     background-color: #F09046;
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
 }
 
-.botão--confirma{
+.botão--confirma {
     background-color: #48c079;
     color: #000;
     font-size: 15px;
@@ -73,37 +86,37 @@ body{
     height: 50px;
 }
 
-.d-1{
+.d-1 {
     flex: 1;
     display: flex;
 }
 
-.d-1-left{
+.d-1-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
 
-.d-1-1{
+.d-1-1 {
     height: 50px;
     display: flex;
     align-items: center;
 }
 
-.d-1-2{
+.d-1-2 {
     height: 50px;
     display: flex;
     align-items: center;
-   justify-content: center;
+    justify-content: center;
 }
 
-.d-1-3{
+.d-1-3 {
     height: 50px;
 }
 
-.numero{
-    display: inline-block;
+.numero {
+    display: table-cell;
     width: 30px;
     height: 40px;
     border: 1px solid #000;
@@ -112,58 +125,58 @@ body{
     font-size: 25px;
 }
 
-.pisca{
+.pisca {
     animation-name: pisca;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
-.d-1-4{
+.d-1-4 {
     flex: 1;
     line-height: 30px;
 }
 
-.d-1-right{
+.d-1-right {
     width: 90px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.d-1-image{
+.d-1-image {
     border: 1px solid #000;
     background-color: #fff;
     text-align: center;
     font-size: 14px;
 }
 
-.d-1-image img{
+.d-1-image img {
     width: 100%;
 
 }
 
-.small{
+.small {
     width: 80%;
     font-size: 12px;
 }
 
-.d-2{
+.d-2 {
     height: 50px;
     font-size: 14px;
     border-top: 2px solid #000;
     padding-left: 10px;
 }
 
-.aviso--grande{
+.aviso--grande {
     font-size: 40px;
-    font-weight: bold;   
+    font-weight: bold;
     display: flex;
     margin-top: 30px;
     align-items: center;
     justify-content: center;
 }
 
-.aviso--gigante{
+.aviso--gigante {
     font-size: 70px;
     font-weight: bold;
     text-align: center;
@@ -171,4 +184,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.descricao {
+    background-color: #dbd5c9;
+    width: 880px;
+    height: 230px;
+    border-bottom: 1px solid #403A3A;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.info img {
+    width: 99px;
+    border: 1px solid #000;
+}
+
+.prefeitos {
+    display: flex;
+    margin-left: 105px;
+
+}
+
+.vereadores {
+    display: flex;
+}
+
+.label-1 {
+    margin-top: 4px;
+    margin-right: 18px;
+}
+
+.label-2 {
+    margin-top: 4px;
+}
+
+.titulo {
+    margin-left: 185px;
+    word-spacing: 220px;
 }

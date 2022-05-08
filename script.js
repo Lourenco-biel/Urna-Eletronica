@@ -83,7 +83,6 @@ function clicou(n){
         }else{
             atualizandoInterface()
         }
-
     }
 }
 
@@ -119,7 +118,7 @@ function confirma(){
         if(etapas[etapaAtual] !== undefined){
             comecarEtapa()
         }else{
-            document.querySelector(`.tela`).innerHTML = `<div class="aviso--gigante">FIM</div>`
+            document.querySelector(`.tela`).innerHTML = `<div class="aviso--gigante pisca">FIM</div>`
         }
     }
 }
