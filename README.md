@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o Projeto
 
-Este projeto trata-se de uma simulação de votação na urna eletrônica! Vote com consciência 😉
+Este projeto trata-se de uma simulação de voto na urna eletrônica! com bastante logica de programação para deixar essa experiencia mais agradavel para você! faça a simulação e nas eleições vote com consciência!😉
 
 <br>
 
